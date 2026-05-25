@@ -1,0 +1,65 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="ygkZQ0W-HsIdK1S4Op-A">
+    <mxGraphModel dx="1123" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-9" edge="1" parent="1" source="qusDh3jKuGuNrK0U4VoY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qusDh3jKuGuNrK0U4VoY-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="start" vertex="1">
+          <mxGeometry height="80" width="120" x="354" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-10" edge="1" parent="1" source="qusDh3jKuGuNrK0U4VoY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="input nilai" vertex="1">
+          <mxGeometry height="70" width="140" x="344" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-31" edge="1" parent="1" source="qusDh3jKuGuNrK0U4VoY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qusDh3jKuGuNrK0U4VoY-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if nilai &amp;gt;=&amp;nbsp;&lt;div&gt;nilai_minimal_kelulusan:&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="196" x="316" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-33" edge="1" parent="1" source="qusDh3jKuGuNrK0U4VoY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qusDh3jKuGuNrK0U4VoY-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="print(&quot;Lulus&quot;)" vertex="1">
+          <mxGeometry height="70" width="140" x="344" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-30" edge="1" parent="1" source="qusDh3jKuGuNrK0U4VoY-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qusDh3jKuGuNrK0U4VoY-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="nilai_minimal_kelulusan = 75" vertex="1">
+          <mxGeometry height="70" width="146" x="341" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-37" edge="1" parent="1" source="qusDh3jKuGuNrK0U4VoY-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="qusDh3jKuGuNrK0U4VoY-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="760" />
+              <mxPoint x="487" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-28" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="print(&quot;Tidak Lulus&quot;)" vertex="1">
+          <mxGeometry height="70" width="140" x="540" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="end" vertex="1">
+          <mxGeometry height="70" width="146" x="341" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-34" edge="1" parent="1" source="qusDh3jKuGuNrK0U4VoY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.57;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" target="qusDh3jKuGuNrK0U4VoY-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="False" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="qusDh3jKuGuNrK0U4VoY-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="True" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
